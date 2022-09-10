@@ -8,7 +8,7 @@ checkBtn.addEventListener("click",()=>{
     if(initialPrice.value && quantity.value && currentPrice.value) {
         checkForProfitLoss(Number(initialPrice.value),Number(quantity.value),Number(currentPrice.value));
     } else {
-        output.innerHTML = "please insert input!"
+        output.innerHTML = "Please insert input!"
         output.style.color = "red";
     }
 
