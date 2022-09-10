@@ -1,3 +1,48 @@
+:root{
+    --primary:  #DCD7C9;
+    --secondary: #2C3639;
+}
+
+
+body{
+    background-color: var(--secondary);
+    color: var(--primary);
+    width:40%;
+    margin: auto;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+label{
+    font-size: large;
+}
+
 input{
     display: block;
+    width: 100%;
+    margin: 0.5rem 0 1rem 0;
+    height: 25px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+button:hover{
+    background-color:var(--primary) ;
+    color: var(--secondary);
+}
+
+#output{
+    font-size: x-large;
+    margin-top: 1rem;
 }

@@ -25,7 +25,7 @@ function checkForProfitLoss(init,qty,curr) {
         output.style.color = "green";
     } else if (init === curr) {
         output.innerHTML = `No Profit No Loss &#128528;	`;
-        output.style.color = "black";
+        output.style.color = "#DCD7C9";
     } else {
         let loss = (init - curr) * qty;
         let lossPercentage = (loss/(init*qty))*100;
